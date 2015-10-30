@@ -1,4 +1,5 @@
 package praktikum8;
+//Kirjutada programm, mis küsib kasutaja käest kümme sõna ja trükib välja sõna pikkuse ja sõna enda.
 
 import java.util.Scanner;
 
