@@ -13,7 +13,6 @@ public class Astendamine {
 		return arv*astenda(arv, aste-1);
 		}
 	}
-
 }
 
 
@@ -24,6 +23,6 @@ public class Astendamine {
 // git add . - lisan kõik uued failid
 // kirjutan kommentaari
 // esc - saan kommentaari lõpetada
-// :xw - saan tagasi
+// :wq - saan tagasi
 // git status - kontrollin, kas kõik on lisatud 
 // git push - lisan git-i 

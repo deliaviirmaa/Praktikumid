@@ -2,7 +2,15 @@ package praktikum9;
 
 public class FibonacciArv {
 	public static void main(String[] args) {
-		System.out.println(fibonacci(3));
+		//System.out.println(fibonacci(3));
+		
+		int i = 0;
+		while (true) {
+			
+			System.out.println(i+"-"+fibonacci(i));
+			i++;
+		}
+		
 	}
 	public static int fibonacci (int n){ // n - mitmendat numbrit ma selles jadas leida tahan, numbrite lugemine algab nullist
 		if (n==0){   // kohal null (alustan jada lugemist nullist)
