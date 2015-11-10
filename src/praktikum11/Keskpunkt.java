@@ -10,15 +10,16 @@ public class Keskpunkt extends Applet {
 	 * = -PI..PI
 	 */
 	public void paint(Graphics g) {
-		int x0 = getWidth()/2; // Keskpunkt
-		int y0 = getHeight()/2;
+		int w = getWidth();
+		int h = getHeight();
+		int x0 = w/2; // Keskpunkt
+		int y0 = h/2;
 		int r = 100; // Raadius
 		int x, y;
 		double t;  //nurk
 
 		// Kysime kui suur aken on?
-		int w = getWidth();
-		int h = getHeight();
+		
 
 		// Ta"idame tausta
 		g.setColor(Color.red);
