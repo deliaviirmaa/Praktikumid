@@ -3,7 +3,7 @@ package praktikum14;
 public class Ring {
 	Punkt keskPunkt;
 	double raadius;
-	public Ring(Punkt x, int r) {
+	public Ring(Punkt x, double r) {
 		keskPunkt = x;
 		raadius = r;
 	}
